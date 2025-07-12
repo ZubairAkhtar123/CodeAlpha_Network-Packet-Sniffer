@@ -7,8 +7,9 @@ This project is a simple network packet sniffer built using Python and Scapy for
 - Extracts and displays:
   - Source IP
   - Destination IP
-  - Protocol type
+  - Protocol type(TCP: http, https etc)
   - Payload (if any)
+    
 
 ## 📦 Technologies Used:
 - Python
