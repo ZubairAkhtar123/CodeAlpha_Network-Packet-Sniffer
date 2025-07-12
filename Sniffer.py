@@ -30,4 +30,5 @@ def process_packet(packet):
 iface_name = "\\Device\\NPF_{A8B16C33-7E8E-4EBA-8C4D-3FE995669AA3}"
 
 # Only capture 10 packets
-sniff(filter="tcp port 80", iface=iface_name, prn=process_packet, store=0, count=10)
+sniff(filter="tcp", iface=iface_name, prn=process_packet, store=0, count=10)
+
